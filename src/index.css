@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.toolbar {
+  background-color: #e22827;
+  min-height: 46px !important;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.money-container {
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px 0px #ccc;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.money-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.money-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.money-button {
+  border: 2px solid #e22827;
+  color: #e22827;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 16px;
+  min-width: 80px;
+  transition: all 0.3s ease;
+  background: transparent;
+  cursor: pointer;
+}
+
+.money-button:hover {
+  background-color: #e22827;
+  color: #fff;
+}
+
+.inserted-amount {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #e22827;
+  background: #f8d7da;
+  padding: 8px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px #ccc;
+  border-radius: 20px;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 320px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #e22827;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.product-details {
+  flex-grow: 1;
+  padding: 0 10px;
+  text-align: left;
+}
+
+.product-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-price {
+  font-size: 14px;
+  color: #e22827;
+  font-weight: bold;
+}
+
+.product-button {
+  background: #e22827 !important;
+  color: white !important;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.product-button:hover {
+  background: #c00000;
+}
+
+.quantity-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  max-width: 95px;
+}

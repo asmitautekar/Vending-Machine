@@ -1,0 +1,8 @@
+[
+    { "id": 1, "name": "Chips", "price": 20,"image": "chips.png" },
+    { "id": 2, "name": "Soda", "price": 30, "image":"soda.png" },
+    { "id": 3, "name": "Chocolate", "price": 50, "image":"choclate.png" },
+    { "id": 4, "name": "Biscuits", "price": 40, "image":"buiscuit.png" },
+    { "id": 5, "name": "Yoghurt", "price": 10, "image":"yoghurt.png" },
+    { "id": 6, "name": "Juice", "price": 25, "image": "juice.png"}
+]  
