@@ -12,7 +12,7 @@ A simple and interactive Vending Machine web application built with **React**. T
 ## Steps to follow to run the project
 
 ### 1. Clone the repo
-git clone https://github.com/your-username/vending-machine-app.git
+git clone https://github.com/asmita-utekar/vending-machine-app.git
 
 ### 2. Install Dependencies
 npm install
